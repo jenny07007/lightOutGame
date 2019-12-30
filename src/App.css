@@ -168,3 +168,15 @@ h2 span {
     text-shadow: inherit;
   }
 }
+
+@media screen and (min-width: 374px) and (max-width: 490px) {
+  .cell {
+    width: em;
+    height: 5em;
+  }
+
+  .board,
+  .btn-container {
+    width: 100vw;
+  }
+}
