@@ -83,7 +83,7 @@ class Board extends Component {
     ) : (
       <>
         <h2>
-          L<span>i</span>ght O<span>u</span>t
+          L<span>i</span>ghts O<span>u</span>t
         </h2>
         <table>
           <tbody>{this.generateTbBoard()}</tbody>
